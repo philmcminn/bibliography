@@ -1,0 +1,2 @@
+# Installation options: --no-cache-dir --force-reinstall
+bibtexparser @ git+https://github.com/sciunto-org/python-bibtexparser@main#egg=python-bibtexparser
