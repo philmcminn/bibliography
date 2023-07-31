@@ -3,8 +3,8 @@ from enum import Enum
 Venue = Enum('Venue', ['BOOK_CHAPTER', 'CONFERENCE', 'JOURNAL', 'WORKSHOP'])
 
 # Book chapters
-esev = {'name': 'Empirical Software Engineering and Verification', 'acronym': 'ESEV', 'type': Venue.BOOK_CHAPTER}
-fmt = {'name': 'Formal Methods and Testing', 'acronym': 'FMT', 'type': Venue.BOOK_CHAPTER}
+esev = {'name': 'Empirical Software Engineering and Verification', 'type': Venue.BOOK_CHAPTER}
+fmt = {'name': 'Formal Methods and Testing', 'type': Venue.BOOK_CHAPTER}
 
 # Conferences
 ase = {'name': 'International Conference on Automated Software Engineering', 'acronym': 'ASE', 'type': Venue.CONFERENCE}
