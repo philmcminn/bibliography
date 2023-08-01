@@ -12,7 +12,7 @@ bib['Parry2023'] = {
   'volume': '28',
 
   'doi': '',
-  'gsid': '', 
+  'gsid': 'll6Fc7gAAAAJ:uLbwQdceFCQC', 
 
   'authorship': 'joint',
   'previous_key': 'j26'
@@ -25,7 +25,7 @@ bib['Levai2023'] = {
   'year': 2023,
 
   'doi': '',
-  'gsid': '', 
+  'gsid': 'll6Fc7gAAAAJ:_Ybze24A_UAC', 
 
   'authorship': 'joint',
   'previous_key': 'c75'
@@ -1725,7 +1725,7 @@ bib['McMinn2003'] = {
   'title': 'The State Problem for Evolutionary Testing',
   'venue': gecco,
   'year': 2003,
-  
+
   'pages': ['2488', '2498'], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
