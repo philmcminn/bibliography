@@ -32,6 +32,8 @@ def author_to_array(raw_author_string):
     split = first_name.split('.')
     for element in split:
       if element.strip() != '':
+        if len(element) == 1:
+          element = element + "."
         processed_first_names.append(element)
 
   return [surname] + processed_first_names

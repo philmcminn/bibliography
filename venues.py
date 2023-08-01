@@ -1,6 +1,6 @@
 from enum import Enum
 
-Venue = Enum('Venue', ['BOOK_CHAPTER', 'CONFERENCE', 'JOURNAL', 'WORKSHOP'])
+Venue = Enum('Venue', ['BOOK_CHAPTER', 'CONFERENCE', 'JOURNAL', 'PHD_THESIS', 'TECH_REPORT', 'WORKSHOP'])
 
 # Book chapters
 esev = {'name': 'Empirical Software Engineering and Verification', 'type': Venue.BOOK_CHAPTER}
@@ -56,3 +56,9 @@ scam = {'name': 'International Working Conference on Source Code Analysis & Mani
 stov = {'name': 'International Workshop on Software Test Output Validation', 'acronym': 'STOV', 'type': Venue.WORKSHOP}
 uktest = {'name': 'UK Software Testing Workshop', 'acronym': 'UKTest', 'type': Venue.WORKSHOP}
 woda = {'name': 'International Workshop on Dynamic Analysis', 'acronym': 'WODA', 'type': Venue.WORKSHOP}
+
+# Technical Reports
+shefcs = {'name': 'Department of Computer Science, University of Sheffield', 'type': Venue.TECH_REPORT}
+
+# PhD Thesis
+shef = {'name': 'University of Sheffield', 'type': Venue.PHD_THESIS}
