@@ -5,8 +5,9 @@ bib = dict()
 bib['Parry2023'] = {
   'author': [parry_o, hilton_m, kapfhammer_g, mcminn_p],
   'title': 'Empirically Evaluating Flaky Test Detection Techniques Combining Test Case Rerunning and Machine Learning Models',
-  'venue': ese,
+  'venue': emse,
   'year': 2023, 
+
   'issue': '3', 
   'volume': '28',
 
@@ -46,7 +47,7 @@ bib['Roslan2022'] = {
 bib['Parry2022'] = {
   'author': [parry_o, hilton_m, kapfhammer_g, mcminn_p],
   'title': 'What Do Developer-Repaired Flaky Tests Tell Us About the Effectiveness of Automated Flaky Test Detection?',
-  'venue': ast,
+  'venue': ast_c,
   'year': 2022,
 
   'doi': '',
@@ -124,7 +125,7 @@ bib['Clegg2022'] = {
 bib['Clegg2021'] = {
   'author': [clegg_b, villauriol_m, mcminn_p, fraser_g],
   'title': 'Gradeer: An Open-Source Modular Hybrid Grader',
-  'venue': jseet,
+  'venue': icse_jseet,
   'year': 2021,
 
   'doi': '',
@@ -139,6 +140,7 @@ bib['Althomali2021'] = {
   'title': 'Automated Visual Classification of DOM-based Presentation Failure Reports for Responsive Web Pages',
   'venue': stvr,
   'year': 2021, 
+
   'number': '4', 
   'volume': '31',
 
@@ -154,7 +156,8 @@ bib['Mahajan2021'] = {
   'title': 'Effective Automated Repair of Internationalization Presentation Failures in Web Applications Using Style Similarity Clustering and Search-Based Techniques',
   'venue': stvr,
   'year': 2021, 
-  'number': '1--2', 
+
+  'number': '1--2', # TODO
   'volume': '31',
 
   'doi': '10.1002/stvr.1746',
@@ -169,6 +172,7 @@ bib['Clegg2021'] = {
   'title': 'An Empirical Study to Determine if Mutants Can Effectively Simulate Students\' Programming Mistakes to Increase Tutors\' Confidence in Autograding',
   'venue': sigcse,
   'year': 2021,
+
   'pages': ['1055', '1061'],
 
   'doi': '10.1145/3408877.3432411',
@@ -196,6 +200,7 @@ bib['Walsh2020'] = {
   'title': 'Automatically Identifying Potential Regressions in the Layout of Responsive Web Pages',
   'venue': stvr,
   'year': 2020, 
+  
   'number': '6', 
   'volume': '30',
 
@@ -222,7 +227,7 @@ bib['Clegg2020'] = {
 bib['Alsharif2020'] = {
   'author': [alsharif_a, kapfhammer_g, mcminn_p],
   'title': 'Hybrid Methods for Reducing Database Schema Test Suites: Experimental Insights From Computational and Human Studies',
-  'venue': ast,
+  'venue': ast_c,
   'year': 2020,
 
   'doi': '',
@@ -250,6 +255,7 @@ bib['Alsharif2020'] = {
   'title': 'STICCER: Fast and Effective Database Test Suite Reduction Through Merging of Similar Test Cases',
   'venue': icst,
   'year': 2020, 
+
   'publisher': 'IEEE',
 
   'doi': '10.1109/ICST46399.2020.00031',
@@ -264,6 +270,7 @@ bib['Alsharif2019'] = {
   'title': 'What Factors Make SQL Test Cases Understandable for Testers? A Human Study of Automatic Test Data Generation Techniques',
   'venue': icsme,
   'year': 2019,
+
   'pages': ['437', '448'],
 
   'doi': '10.1109/ICSME.2019.00076',
@@ -278,6 +285,7 @@ bib['Paterson2019'] = {
   'title': 'An Empirical Study on the Use of Defect Prediction for Test Case Prioritization',
   'venue': icst,
   'year': 2019,
+
   'pages': ['346', '357'],
 
   'doi': '10.1109/ICST.2019.00041',
@@ -292,6 +300,7 @@ bib['Althomali2019'] = {
   'title': 'Automatic Visual Verification of Layout Failures in Responsively Designed Web Pages',
   'venue': icst,
   'year': 2019,
+
   'pages': ['183', '193'],
 
   'doi': '10.1109/ICST.2019.00027',
@@ -307,6 +316,7 @@ bib['Clegg2019'] = {
   'title': 'Simulating Student Mistakes to Evaluate the Fairness of Automated Grading',
   'venue': icse_seet,
   'year': 2019,
+
   'pages': ['121', '125'],
 
   'doi': '10.1109/ICSE-SEET.2019.00021',
@@ -321,6 +331,7 @@ bib['McMinn2019'] = {
   'title': 'Automatic Detection and Removal of Ineffective Mutants for the Mutation Analysis of Relational Database Schemas',
   'venue': tse,
   'year': 2019,
+
   'pages': ['427', '463'], 
   'number': '5', 
   'volume': '45',
@@ -337,6 +348,7 @@ bib['Almasi2018'] = {
   'title': 'Search-Based Detection of Deviation Failures in the Migration of Legacy Spreadsheet Applications',
   'venue': issta,
   'year': 2018,
+
   'pages': ['266', '275'], 
   'publisher': 'ACM',
 
@@ -350,8 +362,9 @@ bib['Almasi2018'] = {
 bib['Paterson2018'] = {
   'author': [paterson_d, kapfhammer_g, fraser_g, mcminn_p],
   'title': 'Using Controlled Numbers of Real Faults and Mutants to Empirically Evaluate Coverage-Based Test Case Prioritization',
-  'venue': ast,
+  'venue': ast_c,
   'year': 2018,
+
   'pages': ['57', '63'], 
   'publisher': 'ACM',
 
@@ -380,6 +393,7 @@ bib['Alsharif2018'] = {
   'title': 'DOMINO: Fast and Effective Test Data Generation for Relational Database Schemas',
   'venue': icst,
   'year': 2018, 
+
   'publisher': 'IEEE',
 
   'doi': '10.1109/ICST.2018.00012',
@@ -394,6 +408,7 @@ bib['Mahajan2018'] = {
   'title': 'Automated Repair of Internationalization Failures Using Style Similarity Clustering and Search-Based Techniques',
   'venue': icst,
   'year': 2018, 
+
   'publisher': 'IEEE',
 
   'doi': '10.1109/ICST.2018.00030',
@@ -409,6 +424,7 @@ bib['Shamshiri2018'] = {
   'title': 'Random or Evolutionary Search for Object-Oriented Test Suite Generation?',
   'venue': stvr,
   'year': 2018, 
+
   'number': '4', 
   'volume': '28',
 
@@ -425,6 +441,7 @@ bib['Mahajan2018'] = {
   'title': 'Automated Repair of Mobile Friendly Problems in Web Pages',
   'venue': icse,
   'year': 2018,
+
   'pages': ['140', '150'], 
   'publisher': 'ACM',
 
@@ -440,6 +457,7 @@ bib['Hall2018'] = {
   'title': 'Effectively Incorporating Expert Knowledge in Automated Software Remodularisation',
   'venue': tse,
   'year': 2018,
+
   'pages': ['613', '630'], 
   'number': '7', 
   'volume': '44',
@@ -457,6 +475,7 @@ bib['Kim2017'] = {
   'title': 'Evaluating CAVM: A New Search-Based Test Data Generation Tool for C',
   'venue': ssbse,
   'year': 2017,
+
   'pages': ['143', '149'],
 
   'doi': '10.1007/978-3-319-66299-2_12',
@@ -471,6 +490,7 @@ bib['Walsh2017'] = {
   'title': 'Automated Layout Failure Detection for Responsive Web Pages Without an Explicit Oracle',
   'venue': issta,
   'year': 2017,
+
   'pages': ['192', '202'],
 
   'doi': '10.1145/3092703.3092712',
@@ -485,6 +505,7 @@ bib['Walsh2017'] = {
   'title': 'ReDeCheck: An Automatic Layout Failure Checking Tool for Responsively Designed Web Pages',
   'venue': issta,
   'year': 2017,
+
   'pages': ['360', '363'],
 
   'doi': '10.1145/3092703.3098221',
@@ -499,6 +520,7 @@ bib['Mahajan2017'] = {
   'title': 'Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques',
   'venue': issta,
   'year': 2017,
+
   'pages': ['249', '260'],
 
   'doi': '10.1145/3092703.3092726',
@@ -514,6 +536,7 @@ bib['Mahajan2017'] = {
   'title': 'XFix: Automated Tool for Repair of Layout Cross Browser Issues',
   'venue': issta,
   'year': 2017,
+
   'pages': ['368', '371'],
 
   'doi': '10.1145/3092703.3098223',
@@ -528,6 +551,7 @@ bib['Shamshiri2017'] = {
   'title': 'Disposable Testing: Avoiding Maintenance of Generated Unit Tests by Throwing Them Away',
   'venue': icse,
   'year': 2017,
+
   'pages': ['207', '209'],
 
   'doi': '10.1109/ICSE-C.2017.100',
@@ -542,6 +566,7 @@ bib['McMinn2016'] = {
   'title': 'SchemaAnalyst: Search-Based Test Data Generation for Relational Database Schemas',
   'venue': icsme,
   'year': 2016,
+
   'pages': ['586', '590'],
 
   'doi': '10.1109/ICSME.2016.93',
@@ -556,6 +581,7 @@ bib['McCurdy2016'] = {
   'title': 'Mrstudyr: Retrospectively Studying the Effectiveness of Mutant Reduction Techniques',
   'venue': icsme,
   'year': 2016,
+
   'pages': ['591', '595'],
 
   'doi': '10.1109/ICSME.2016.92',
@@ -570,6 +596,7 @@ bib['McMinn2016'] = {
   'title': 'AVMf: An Open-Source Framework and Implementation of the Alternating Variable Method',
   'venue': ssbse,
   'year': 2016,
+
   'pages': ['259', '266'], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
@@ -587,6 +614,7 @@ bib['McMinn2016'] = {
   'title': 'Virtual Mutation Analysis of Relational Database Schemas',
   'venue': ast,
   'year': 2016,
+
   'pages': ['36', '42'], 
   'publisher': 'ACM',
 
@@ -602,6 +630,7 @@ bib['Kapfhammer2016'] = {
   'title': 'Hitchhikers Need Free Vehicles! Shared Repositories for Statistical Analysis in SBST',
   'venue': sbst,
   'year': 2016,
+
   'pages': ['55', '56'], 
   'publisher': 'ACM',
 
@@ -617,6 +646,7 @@ bib['McMinn2016'] = {
   'title': 'Automated Search for Good Coverage Criteria: Moving From Code Coverage to Fault Coverage Through Search-Based Software Engineering',
   'venue': sbst,
   'year': 2016,
+
   'pages': ['43', '44'], 
   'publisher': 'ACM',
 
@@ -632,6 +662,7 @@ bib['McMinn2015'] = {
   'title': 'The Effectiveness of Test Coverage Criteria for Relational Database Schema Integrity Constraints',
   'venue': tosem,
   'year': 2015,
+
   'pages': ['8:1', '8:49'], 
   'number': '1', 
   'volume': '25',
@@ -649,6 +680,7 @@ bib['Walsh2015'] = {
   'title': 'Automatic Detection of Potential Layout Faults Following Changes to Responsive Web Pages',
   'venue': ase,
   'year': 2015,
+
   'pages': ['709', '714'], 
   'publisher': 'ACM',
 
@@ -664,6 +696,7 @@ bib['Shamshiri2015'] = {
   'title': 'Do Automatically Generated Unit Tests Find Real Faults? An Empirical Study of Effectiveness and Challenges',
   'venue': ase,
   'year': 2015,
+
   'pages': ['201', '211'], 
   'publisher': 'ACM',
 
@@ -680,7 +713,7 @@ bib['McMinn2015'] = {
   'title': 'An Analysis of the Effectiveness of Different Coverage Criteria for Testing Relational Database Schema Integrity Constraints',
   'venue': shefcs,
   'year': 2015, 
-  'institution': 'Department of Computer Science, University of Sheffield', 
+
   'number': 'CS-15-01',
 
   'doi': '',
@@ -723,6 +756,7 @@ bib['Shamshiri2015'] = {
   'title': 'Random or Genetic Algorithm Search for Object-Oriented Test Suite Generation?',
   'venue': gecco,
   'year': 2015,
+
   'pages': ['1367', '1374'], 
   'publisher': 'ACM',
 
@@ -739,6 +773,7 @@ bib['Kempka2015'] = {
   'title': 'Design and Analysis of Different Alternating Variable Searches for Search-Based Software Testing',
   'venue': tcs,
   'year': 2015,
+
   'pages': ['1', '20'], 
   'volume': '605',
 
@@ -755,6 +790,7 @@ bib['Barr2015'] = {
   'title': 'The Oracle Problem in Software Testing: A Survey',
   'venue': tse,
   'year': 2015,
+
   'pages': ['507', '525'], 
   'number': '5', 
   'volume': '41',
@@ -771,7 +807,8 @@ bib['Fraser2015'] = {
   'title': 'Does Automated Unit Test Generation Really Help Software Testers? A Controlled Empirical Study',
   'venue': tosem,
   'year': 2015,
-  'editor': ['TO COMPLETE'], 
+
+  'editor': [harman_m, pezze_m], 
   'number': '4', 
   'volume': '24',
 
@@ -788,6 +825,7 @@ bib['Fraser2015'] = {
   'title': 'A Memetic Algorithm for Whole Test Suite Generation',
   'venue': jss,
   'year': 2015,
+
   'pages': ['311', '327'], 
   'volume': '103',
 
@@ -804,6 +842,7 @@ bib['Shahbaz2015'] = {
   'title': 'Automatic Generation of Valid and Invalid Test Data for String Validation Routines Using Web Searches and Regular Expressions',
   'venue': scp,
   'year': 2015,
+
   'pages': ['405', '425'], 
   'number': '4', 
   'volume': '97',
@@ -821,6 +860,7 @@ bib['Wright2014'] = {
   'title': 'The Impact of Equivalent, Redundant and Quasi Mutants on Database Schema Mutation Analysis',
   'venue': qsic,
   'year': 2014,
+
   'pages': ['57', '66'], 
   'publisher': 'IEEE Computer Society',
 
@@ -836,6 +876,7 @@ bib['Hall2014'] = {
   'title': 'Establishing the Source Code Disruption Caused by Automated Remodularisation Tools',
   'venue': icsme,
   'year': 2014,
+
   'pages': ['466', '470'], 
   'publisher': 'IEEE Computer Society',
 
@@ -852,10 +893,9 @@ bib['Harman2013'] = {
   'title': 'A Comprehensive Survey of Trends in Oracles for Software Testing',
   'venue': shefcs,
   'year': 2013, 
-  'institution': 'Department of Computer Science, University of Sheffield', 
+
   'number': 'CS-13-01',
 
-  'doi': '',
   'gsid': '', 
 
   'authorship': 'joint',
@@ -868,6 +908,7 @@ bib['Fraser2013'] = {
   'title': 'Does Automated White-Box Test Generation Really Help Software Testers?',
   'venue': issta,
   'year': 2013,
+
   'pages': ['291', '301'], 
   'publisher': 'ACM',
 
@@ -885,6 +926,7 @@ bib['Kempka2013'] = {
   'title': 'A Theoretical Runtime and Empirical Analysis of Different Alternating Variable Searches for Search-Based Testing',
   'venue': gecco,
   'year': 2013,
+
   'pages': ['1445', '1452'], 
   'publisher': 'ACM',
 
@@ -919,6 +961,7 @@ bib['Wright2013'] = {
   'title': 'Towards the Automatic Identification of Faulty Multi-Agent Based Simulation Runs Using MASTER',
   'venue': mabs,
   'year': 2013,
+  
   'pages': ['153', '172'], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Artificial Intelligence', 
@@ -952,8 +995,10 @@ bib['Anand2013'] = {
   'title': 'An Orchestrated Survey on Automated Software Test Case Generation',
   'venue': jss,
   'year': 2013,
+
   'pages': ['1978', '2001'],
-  'editor': ['TO COMPLETE'], 
+  'editor': [bertolino_a, foster_h, li_j, zhu_h], 
+
   'number': '8', 
   'volume': '86',
 
@@ -969,6 +1014,7 @@ bib['Wright2013'] = {
   'title': 'Efficient Mutation Analysis of Relational Database Structure Using Mutant Schemata and Parallelisation',
   'venue': mutation,
   'year': 2013,
+
   'pages': ['63', '72'], 
   'publisher': 'IEEE',
 
@@ -984,6 +1030,7 @@ bib['Afshan2013'] = {
   'title': 'Evolving Readable String Test Inputs Using a Natural Language Model to Reduce Human Oracle Cost',
   'venue': icst,
   'year': 2013,
+
   'pages': ['352', '361'], 
   'publisher': 'IEEE',
 
@@ -1000,6 +1047,7 @@ bib['Kapfhammer2013'] = {
   'title': 'Search-Based Testing of Relational Schema Integrity Constraints Across Multiple Database Management Systems',
   'venue': icst,
   'year': 2013,
+
   'pages': ['31', '40'], 
   'publisher': 'IEEE',
 
@@ -1016,6 +1064,7 @@ bib['McMinn2013'] = {
   'title': 'An Identification of Program Factors That Impact Crossover Performance in Evolutionary Test Input Generation for the Branch Coverage of C Programs',
   'venue': ist,
   'year': 2013,
+
   'pages': ['153', '172'], 
   'number': '1', 
   'volume': '55',
@@ -1033,6 +1082,7 @@ bib['Hall2012'] = {
   'title': 'Supervised Software Modularisation',
   'venue': icsm,
   'year': 2012,
+
   'pages': ['472', '481'], 
   'publisher': 'IEEE',
 
@@ -1049,6 +1099,7 @@ bib['Holcombe2012'] = {
   'title': 'Modelling Complex Biological Systems Using an Agent-Based Approach',
   'venue': ib,
   'year': 2012,
+
   'pages': ['53', '64'], 
   'number': '1', 
   'volume': '4',
@@ -1065,6 +1116,7 @@ bib['McMinn2012'] = {
   'title': 'Input Domain Reduction Through Irrelevant Variable Removal and Its Effect on Local, Global and Hybrid Search-Based Structural Test Data Generation',
   'venue': tse,
   'year': 2012,
+
   'pages': ['453', '477'], 
   'number': '2', 
   'volume': '38',
@@ -1082,6 +1134,7 @@ bib['McMinn2012'] = {
   'title': 'Search-Based Test Input Generation for String Data Types Using the Results of Web Queries',
   'venue': icst,
   'year': 2012,
+
   'pages': ['141', '150'], 
   'publisher': 'IEEE',
 
@@ -1098,6 +1151,7 @@ bib['Shahbaz2012'] = {
   'title': 'Automated Discovery of Valid Test Strings From the Web Using Dynamic Regular Expressions Collation and Natural Language Processing',
   'venue': qsic,
   'year': 2012,
+
   'pages': ['79', '88'], 
   'publisher': 'IEEE',
 
@@ -1115,6 +1169,7 @@ bib['Adra2011'] = {
   'title': 'A Multiobjective Optimisation Approach for Dynamic Inference and Refinement of Agent-Based Model Specifications',
   'venue': cec,
   'year': 2011,
+
   'pages': ['2237', '2244'], 
   'publisher': 'IEEE',
 
@@ -1145,6 +1200,7 @@ bib['Baars2011'] = {
   'title': 'Symbolic Search-Based Testing',
   'venue': ase,
   'year': 2011,
+
   'pages': ['53', '62'], 
   'publisher': 'IEEE',
 
@@ -1161,8 +1217,9 @@ bib['Harman2011'] = {
   'title': 'Search-Based Software Engineering: Techniques, Taxonomy, Tutorial',
   'venue': esev,
   'year': 2011,
+
   'pages': ['1', '59'],
-  'editor': ['TO COMPLETE'], 
+  'editor': [meyer_b, nordio_m], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
   'volume': '7007',
@@ -1179,6 +1236,7 @@ bib['McMinn2011'] = {
   'title': 'Search-Based Software Testing: Past, Present and Future',
   'venue': sbst,
   'year': 2011,
+
   'pages': ['153', '163'], 
   'publisher': 'IEEE',
 
@@ -1196,6 +1254,7 @@ bib['Adra2010'] = {
   'title': 'Mutation Operators for Agent-Based Models',
   'venue': mutation,
   'year': 2010,
+
   'pages': ['151', '156'], 
   'publisher': 'IEEE',
 
@@ -1212,7 +1271,7 @@ bib['Afshan2010'] = {
   'title': 'Using Dictionary Compression Algorithms to Identify Phases in Program Traces',
   'venue': shefcs,
   'year': 2010, 
-  'institution': 'Department of Computer Science, University of Sheffield', 
+
   'number': 'CS-10-01',
 
   'doi': '',
@@ -1228,6 +1287,7 @@ bib['Hall2010'] = {
   'title': 'Superstate Identification for State Machines Using Search-Based Clustering',
   'venue': gecco,
   'year': 2010,
+
   'pages': ['1381', '1388'], 
   'publisher': 'ACM',
 
@@ -1244,6 +1304,7 @@ bib['Harman2010'] = {
   'title': 'A Theoretical and Empirical Study of Search Based Testing: Local, Global and Hybrid Search',
   'venue': tse,
   'year': 2010,
+
   'pages': ['226', '247'], 
   'number': '2', 
   'volume': '36',
@@ -1261,6 +1322,7 @@ bib['Harman2010'] = {
   'title': 'Optimizing for the Number of Tests Generated in Search Based Test Data Generation With an Application to the Oracle Cost Problem',
   'venue': sbst,
   'year': 2010,
+
   'pages': ['182', '191'], 
   'publisher': 'IEEE',
 
@@ -1277,6 +1339,7 @@ bib['Lakhotia2010'] = {
   'title': 'An Empirical Investigation Into Branch Coverage for C Programs Using CUTE and AUSTIN',
   'venue': jss,
   'year': 2010,
+
   'pages': ['2379', '2391'], 
   'number': '12', 
   'volume': '83',
@@ -1294,6 +1357,7 @@ bib['McMinn2010'] = {
   'title': 'How Does Program Structure Impact the Effectiveness of the Crossover Operator in Evolutionary Testing?',
   'venue': ssbse,
   'year': 2010,
+
   'pages': ['9', '18'], 
   'publisher': 'IEEE',
 
@@ -1312,6 +1376,7 @@ bib['McMinn2010'] = {
   'title': 'Reducing Qualitative Human Oracle Costs Associated With Automatically Generated Test Data',
   'venue': stov,
   'year': 2010,
+
   'pages': ['1', '4'], 
   'publisher': 'ACM',
 
@@ -1327,6 +1392,7 @@ bib['Walkinshaw2010'] = {
   'title': 'Using Compression Algorithms to Support the Comprehension of Program Traces',
   'venue': woda,
   'year': 2010,
+
   'pages': ['8', '13'], 
   'publisher': 'ACM',
 
@@ -1343,6 +1409,7 @@ bib['Lakhotia2009'] = {
   'title': 'Automated Test Data Generation for Coverage: Haven\'t We Solved This Problem Yet?',
   'venue': taicpart,
   'year': 2009,
+
   'pages': ['95', '104'], 
   'publisher': 'IEEE',
 
@@ -1359,6 +1426,7 @@ bib['McMinn2009'] = {
   'title': 'Empirical Evaluation of a Nesting Testability Transformation for Evolutionary Testing',
   'venue': tosem,
   'year': 2009,
+
   'pages': ['11:1', '11:27'], 
   'number': '3', 
   'volume': '18',
@@ -1375,6 +1443,7 @@ bib['McMinn2009'] = {
   'title': 'Search-Based Failure Discovery Using Testability Transformations to Generate Pseudo-Oracles',
   'venue': gecco,
   'year': 2009,
+
   'pages': ['1689', '1696'], 
   'publisher': 'ACM Press',
 
@@ -1391,8 +1460,9 @@ bib['Harman2008'] = {
   'title': 'Testability Transformation — Program Transformation to Improve Testability',
   'venue': fmt,
   'year': 2008,
+
   'pages': ['320', '344'],
-  'editor': ['TO COMPLETE'], 
+  'editor': [hierons_r, bowen_j, harman_m], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
   'volume': '4949',
@@ -1409,8 +1479,9 @@ bib['Kiran2008'] = {
   'title': 'Validation and Discovery From Computational Biology Models',
   'venue': bs,
   'year': 2008,
+
   'pages': ['141', '150'], 
-  'number': '1--2', 
+  'number': '1--2', # TODO
   'volume': '93',
 
   'doi': '10.1016/j.biosystems.2008.03.010',
@@ -1425,6 +1496,7 @@ bib['Lakhotia2008'] = {
   'title': 'Handling Dynamic Data Structures in Search-Based Testing',
   'venue': gecco,
   'year': 2008,
+
   'pages': ['1759', '1766'], 
   'publisher': 'ACM',
 
@@ -1440,6 +1512,7 @@ bib['Sun2008'] = {
   'title': 'Agent Based Modelling Helps in Understanding the Rules by Which Fibroblasts Support Keratinocyte Colony Formation',
   'venue': plsone,
   'year': 2008, 
+
   'number': '5', 
   'volume': '3',
 
@@ -1455,6 +1528,7 @@ bib['Harman2007'] = {
   'title': 'The Impact of Input Domain Reduction on Search-Based Test Data Generation',
   'venue': esecfse,
   'year': 2007,
+
   'pages': ['155', '164'], 
   'publisher': 'ACM',
 
@@ -1471,6 +1545,7 @@ bib['Harman2007'] = {
   'title': 'A Theoretical and Empirical Analysis of Evolutionary Testing and Hill Climbing for Structural Test Data Generation',
   'venue': issta,
   'year': 2007,
+
   'pages': ['73', '83'], 
   'publisher': 'ACM',
 
@@ -1487,6 +1562,7 @@ bib['Harman2007'] = {
   'title': 'A Multi-Objective Approach to Search-Based Test Data Generation',
   'venue': gecco,
   'year': 2007,
+
   'pages': ['1098', '1105'], 
   'publisher': 'ACM',
 
@@ -1502,7 +1578,7 @@ bib['McMinn2007'] = {
   'title': 'IGUANA: Input Generation Using Automated Novel Algorithms. A Plug and Play Research Tool',
   'venue': shefcs,
   'year': 2007, 
-  'institution': 'Department of Computer Science, University of Sheffield', 
+
   'number': 'CS-07-14',
 
   'doi': '',
@@ -1517,6 +1593,7 @@ bib['Sun2007'] = {
   'title': 'An Integrated Systems Biology Approach to Understanding the Rules of Keratinocyte Colony Formation',
   'venue': jrsi,
   'year': 2007,
+
   'pages': ['1077', '1092'], 
   'number': '17', 
   'volume': '4',
@@ -1533,6 +1610,7 @@ bib['McMinn2006'] = {
   'title': 'Evolutionary Testing Using an Extended Chaining Approach',
   'venue': ec,
   'year': 2006,
+
   'pages': ['41', '64'], 
   'number': '1', 
   'volume': '14',
@@ -1549,6 +1627,7 @@ bib['McMinn2006'] = {
   'title': 'The Species Per Path Approach to Search-Based Software Test Data Generation',
   'venue': issta,
   'year': 2006,
+
   'pages': ['13', '24'], 
   'publisher': 'ACM',
 
@@ -1564,6 +1643,7 @@ bib['McMinn2005'] = {
   'title': 'Testability Transformation for Efficient Automated Test Data Search in the Presence of Nesting',
   'venue': uktest,
   'year': 2005,
+
   'pages': ['165', '182'],
 
   'doi': '',
@@ -1579,6 +1659,7 @@ bib['McMinn2005'] = {
   'title': 'Evolutionary Testing of State-Based Programs',
   'venue': gecco,
   'year': 2005,
+
   'pages': ['1013', '1020'], 
   'publisher': 'ACM',
 
@@ -1594,7 +1675,6 @@ bib['McMinn2005'] = {
   'title': 'Evolutionary Search for Test Data in the Presence of State Behaviour',
   'venue': shef,
   'year': 2005, 
-  'institution': 'The University of Sheffield',
 
   'doi': '',
   'gsid': '', 
@@ -1608,6 +1688,7 @@ bib['McMinn2004'] = {
   'title': 'Search-Based Software Test Data Generation: A Survey',
   'venue': stvr,
   'year': 2004,
+
   'pages': ['105', '156'], 
   'number': '2', 
   'volume': '14',
@@ -1624,6 +1705,7 @@ bib['McMinn2004'] = {
   'title': 'Hybridizing Evolutionary Testing With the Chaining Approach',
   'venue': gecco,
   'year': 2004,
+
   'pages': ['1363', '1374'], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
@@ -1643,6 +1725,7 @@ bib['McMinn2003'] = {
   'title': 'The State Problem for Evolutionary Testing',
   'venue': gecco,
   'year': 2003,
+  
   'pages': ['2488', '2498'], 
   'publisher': 'Springer', 
   'series': 'Lecture Notes in Computer Science', 
