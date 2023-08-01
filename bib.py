@@ -16,5 +16,5 @@ def get_pubs(bib, year):
         for key, inner_dict in bib.items()
         if "year" in inner_dict and inner_dict["year"] == year
     }
-    return pubs
-    # return sorted(pub.values(), key=lambda x: x['title'])
+    return dict(sorted(pubs.items(), key=lambda item: item[1]["author"]))
+

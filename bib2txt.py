@@ -53,8 +53,16 @@ def format_pubs():
     count = 0
     years = get_years(bib)
 
+    first = True
     for year in years:
-        print("\n" + str(year))
+        if first:
+            first = False
+        else:
+            print()
+
+        year_str = str(year)
+        rule = "-" * len(year_str)
+        print(year_str + "\n" + rule)
 
         pubs = get_pubs(bib, year)
 

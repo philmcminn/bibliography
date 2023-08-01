@@ -6,6 +6,20 @@ bib = dict()
 
 add_pub(
     bib,
+    "Gruber2024",
+    {
+        "author": [gruber_m, roslan_m, parry_o, scharnbock_f, mcminn_p, fraser_g],
+        "title": "Do Automatic Test Generation Tools Generate Flaky Tests?",
+        "venue": icse,
+        "year": 2024,
+        "doi": "",
+        "gsid": "",
+        "authorship": "joint",
+    },
+)
+
+add_pub(
+    bib,
     "Parry2023",
     {
         "author": [parry_o, hilton_m, kapfhammer_g, mcminn_p],
