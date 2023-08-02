@@ -36,7 +36,7 @@ def venue_str(venue):
         return "Technical Report, " + venue["name"]
 
 
-def pub_str(key, pub):
+def format_pub(key, pub):
     return (
         authors_str(pub["author"])
         + ". "
@@ -49,8 +49,7 @@ def pub_str(key, pub):
     )
 
 
-def format_pubs():
-    count = 0
+def format_bib():
     years = get_years(bib)
 
     first = True
@@ -67,10 +66,21 @@ def format_pubs():
         pubs = get_pubs(bib, year)
 
         for key, pub in pubs.items():
-            count += 1
-            print("* " + pub_str(key, pub))
-
-    print("\n" + str(count) + " publications.")
+            print("* " + format_pub(key, pub))
 
 
-format_pubs()
+format_bib()
+
+print("\n" + str(len(bib)) + " publications:")
+
+types = {
+    Venue.JOURNAL: "journal articles",
+    Venue.CONFERENCE: "conference papers",
+    Venue.WORKSHOP: "workshop papers",
+    Venue.BOOK_CHAPTER: "book chapters",
+    Venue.TECH_REPORT: "technical reports",
+    Venue.PHD_THESIS: "phd theses",
+}
+
+for type, type_str in types.items():
+    print("* " + str(count_venue_type(bib, type)) + " " + type_str)

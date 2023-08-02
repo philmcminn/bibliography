@@ -56,6 +56,7 @@ add_pub(
     {
         "author": [roslan_m, rojas_j, mcminn_p],
         "title": "An Empirical Comparison of EvoSuite and DSpot for Improving Developer-Written Test Suites With Respect to Mutation Score",
+        "preserve_case": ["EvoSuite", "DSpot"],
         "venue": ssbse,
         "year": 2022,
         "doi": "",
@@ -145,7 +146,7 @@ add_pub(
     "Clegg2022",
     {
         "author": [clegg_b, mcminn_p, fraser_g],
-        "title": "Diagnosability, Adequacy \& Size: How Test Suites Impact Autograding",
+        "title": "Diagnosability, Adequacy & Size: How Test Suites Impact Autograding",
         "venue": hicss,
         "year": 2022,
         "doi": "",
@@ -303,6 +304,7 @@ add_pub(
     {
         "author": [alsharif_a, kapfhammer_g, mcminn_p],
         "title": "STICCER: Fast and Effective Database Test Suite Reduction Through Merging of Similar Test Cases",
+        "preserve_case": ["STICCER"],
         "venue": icst,
         "year": 2020,
         "publisher": "IEEE",
@@ -319,6 +321,7 @@ add_pub(
     {
         "author": [alsharif_a, kapfhammer_g, mcminn_p],
         "title": "What Factors Make SQL Test Cases Understandable for Testers? A Human Study of Automatic Test Data Generation Techniques",
+        "preserve_case": ["SQL"],
         "venue": icsme,
         "year": 2019,
         "pages": ["437", "448"],
@@ -436,6 +439,7 @@ add_pub(
     {
         "author": [you_b, kim_j, kwon_m, mcminn_p, yoo_s],
         "title": "Evaluation of CAVM, Austin, and CodeScroll for Test Data Generation for C",
+        "preserve_case": ["CAVM", "Austin", "CodeScroll", "C"],
         "venue": kcse,
         "year": 2018,
         "doi": "",
@@ -451,6 +455,7 @@ add_pub(
     {
         "author": [alsharif_a, kapfhammer_g, mcminn_p],
         "title": "DOMINO: Fast and Effective Test Data Generation for Relational Database Schemas",
+        "preserve_case": ["DOMINO"],
         "venue": icst,
         "year": 2018,
         "publisher": "IEEE",
@@ -546,6 +551,7 @@ add_pub(
     {
         "author": [kim_j, you_b, kwon_m, mcminn_p, yoo_s],
         "title": "Evaluating CAVM: A New Search-Based Test Data Generation Tool for C",
+        "preserve_case": ["CAVM", "C"],
         "venue": ssbse,
         "year": 2017,
         "pages": ["143", "149"],
@@ -578,6 +584,7 @@ add_pub(
     {
         "author": [walsh_t, kapfhammer_g, mcminn_p],
         "title": "ReDeCheck: An Automatic Layout Failure Checking Tool for Responsively Designed Web Pages",
+        "preserve_case": ["ReDeCheck"],
         "venue": issta,
         "year": 2017,
         "pages": ["360", "363"],
@@ -611,6 +618,7 @@ add_pub(
     {
         "author": [mahajan_s, alameer_a, mcminn_p, halfond_w],
         "title": "XFix: Automated Tool for Repair of Layout Cross Browser Issues",
+        "preserve_case": ["XFix"],
         "venue": issta,
         "year": 2017,
         "pages": ["368", "371"],
@@ -643,6 +651,7 @@ add_pub(
     {
         "author": [mcminn_p, wright_c, kinneer_c, mccurdy_c, camara_m, kapfhammer_g],
         "title": "SchemaAnalyst: Search-Based Test Data Generation for Relational Database Schemas",
+        "preserve_case": ["SchemaAnalyst"],
         "venue": icsme,
         "year": 2016,
         "pages": ["586", "590"],
@@ -658,7 +667,8 @@ add_pub(
     "McCurdy2016",
     {
         "author": [mccurdy_c, mcminn_p, kapfhammer_g],
-        "title": "Mrstudyr: Retrospectively Studying the Effectiveness of Mutant Reduction Techniques",
+        "title": "mrstudyr: Retrospectively Studying the Effectiveness of Mutant Reduction Techniques",
+        "preserve_case": ["mrstudyr"],
         "venue": icsme,
         "year": 2016,
         "pages": ["591", "595"],
@@ -675,6 +685,7 @@ add_pub(
     {
         "author": [mcminn_p, kapfhammer_g],
         "title": "AVMf: An Open-Source Framework and Implementation of the Alternating Variable Method",
+        "preserve_case": ["AVMf"],
         "venue": ssbse,
         "year": 2016,
         "pages": ["259", "266"],
@@ -711,6 +722,7 @@ add_pub(
     {
         "author": [kapfhammer_g, wright_c, mcminn_p],
         "title": "Hitchhikers Need Free Vehicles! Shared Repositories for Statistical Analysis in SBST",
+        "preserve_case": ["SBST"],
         "venue": sbst,
         "year": 2016,
         "pages": ["55", "56"],
@@ -832,6 +844,7 @@ add_pub(
     {
         "author": [kinneer_c, kapfhammer_g, wright_c, mcminn_p],
         "title": "EXPOSE: Inferring Worst-Case Time Complexity by Automatic Empirical Study",
+        "preserve_case": ["EXPOSE"],
         "venue": seke,
         "year": 2015,
         "doi": "10.18293/SEKE2015-254",
@@ -1065,6 +1078,7 @@ add_pub(
     {
         "author": [wright_c, mcminn_p, gallardo_j],
         "title": "Towards the Automatic Identification of Faulty Multi-Agent Based Simulation Runs Using MASTER",
+        "preserve_case": ["MASTER"],
         "venue": mabs,
         "year": 2013,
         "pages": ["153", "172"],
@@ -1184,6 +1198,7 @@ add_pub(
     {
         "author": [mcminn_p],
         "title": "An Identification of Program Factors That Impact Crossover Performance in Evolutionary Test Input Generation for the Branch Coverage of C Programs",
+        "preserve_case": ["C"],
         "venue": ist,
         "year": 2013,
         "pages": ["153", "172"],
@@ -1506,6 +1521,7 @@ add_pub(
     {
         "author": [lakhotia_k, mcminn_p, harman_m],
         "title": "An Empirical Investigation Into Branch Coverage for C Programs Using CUTE and AUSTIN",
+        "preserve_case": ["C", "CUTE", "AUSTIN"],
         "venue": jss,
         "year": 2010,
         "pages": ["2379", "2391"],
@@ -1768,6 +1784,7 @@ add_pub(
     {
         "author": [mcminn_p],
         "title": "IGUANA: Input Generation Using Automated Novel Algorithms. A Plug and Play Research Tool",
+        "preserve_case": ["IGUANA: Input Generation Using Automated Novel Algorithms"],
         "venue": shefcs,
         "year": 2007,
         "number": "CS-07-14",
