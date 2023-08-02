@@ -1,3 +1,10 @@
+from enum import Enum
+
+Venue = Enum(
+    "Venue",
+    ["BOOK_CHAPTER", "CONFERENCE", "JOURNAL", "PHD_THESIS", "TECH_REPORT", "WORKSHOP"],
+)
+
 def add_pub(bib, key, pub):
     if key in bib:
         print('"' + key + '" already in bib')

@@ -1,9 +1,4 @@
-from enum import Enum
-
-Venue = Enum(
-    "Venue",
-    ["BOOK_CHAPTER", "CONFERENCE", "JOURNAL", "PHD_THESIS", "TECH_REPORT", "WORKSHOP"],
-)
+from bibpy.bib import Venue 
 
 # Book chapters
 esev = {

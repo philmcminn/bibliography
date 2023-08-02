@@ -1,6 +1,6 @@
 from authors import *
 from venues import *
-from bib import *
+from bibpy.bib import add_pub
 
 bib = dict()
 

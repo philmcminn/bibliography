@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import sys
+from mcminn import *
+from bibpy.bib2bibtex import *
+
+str = format_bib(bib)
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        file_path = sys.argv[1]        
+        with open(file_path, "w") as file:
+            file.write(str)
+    else:
+        print(str)

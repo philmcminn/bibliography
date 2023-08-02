@@ -1,8 +1,4 @@
-from authors import *
-from venues import *
-from bib import *
-from mcminn import *
-
+from bibpy.bib import Venue
 
 def author_str(author):
     formatted_name_parts = [name.strip().capitalize() for name in author[1:]]
@@ -49,7 +45,7 @@ def format_pub(key, pub):
     )
 
 
-def format_bib():
+def format_bib(bib):
     years = get_years(bib)
 
     first = True
@@ -69,18 +65,18 @@ def format_bib():
             print("* " + format_pub(key, pub))
 
 
-format_bib()
-
-print("\n" + str(len(bib)) + " publications:")
-
-types = {
-    Venue.JOURNAL: "journal articles",
-    Venue.CONFERENCE: "conference papers",
-    Venue.WORKSHOP: "workshop papers",
-    Venue.BOOK_CHAPTER: "book chapters",
-    Venue.TECH_REPORT: "technical reports",
-    Venue.PHD_THESIS: "phd theses",
-}
-
-for type, type_str in types.items():
-    print("* " + str(count_venue_type(bib, type)) + " " + type_str)
+#format_bib()
+#
+#print("\n" + str(len(bib)) + " publications:")
+#
+#types = {
+#    Venue.JOURNAL: "journal articles",
+#    Venue.CONFERENCE: "conference papers",
+#    Venue.WORKSHOP: "workshop papers",
+#    Venue.BOOK_CHAPTER: "book chapters",
+#    Venue.TECH_REPORT: "technical reports",
+#    Venue.PHD_THESIS: "phd theses",
+#}
+#
+#for type, type_str in types.items():
+#    print("* " + str(count_venue_type(bib, type)) + " " + type_str)

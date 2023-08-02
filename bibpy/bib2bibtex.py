@@ -1,8 +1,5 @@
 import re
-from authors import *
-from venues import *
-from bib import *
-from mcminn import *
+from bibpy.bib import Venue
 
 def bibtex_str(str):
     str = (str.replace("é", "{\\'e}").
@@ -117,4 +114,4 @@ def format_bib(bib):
         bib_str += format_pub(bib, key)
     return bib_str
 
-print(format_bib(bib))
+
