@@ -1,21 +1,24 @@
 import re
 from bibpy.bib import Venue
 
+
 def bibtex_str(str):
-    str = (str.replace("é", "{\\'e}").
-           replace("á", "{\\'a}").
-           replace("è", "{\\`e}").
-           replace("ö", "{\\\"o}").
-           replace("&", "\\&").
-           replace("—", "---").
-           replace("–", "--"))
-    
+    str = (
+        str.replace("é", "{\\'e}")
+        .replace("á", "{\\'a}")
+        .replace("è", "{\\`e}")
+        .replace("ö", '{\\"o}')
+        .replace("&", "\\&")
+        .replace("—", "---")
+        .replace("–", "--")
+    )
+
     return str
 
 
 def preserve_case(str, words):
     for word in words:
-        pattern = r'\b' + re.escape(word) + r'\b'
+        pattern = r"\b" + re.escape(word) + r"\b"
         str = re.sub(pattern, "{" + word + "}", str)
     return str
 
@@ -44,8 +47,13 @@ def pub_type(venue_type):
     elif venue_type == Venue.TECH_REPORT:
         return "techreport"
 
+
 def pub_form(venue_type):
-    if venue_type == Venue.BOOK_CHAPTER or venue_type == Venue.CONFERENCE or venue_type == Venue.WORKSHOP:
+    if (
+        venue_type == Venue.BOOK_CHAPTER
+        or venue_type == Venue.CONFERENCE
+        or venue_type == Venue.WORKSHOP
+    ):
         return "booktitle"
     elif venue_type == Venue.JOURNAL:
         return "journal"
@@ -53,7 +61,8 @@ def pub_form(venue_type):
         return "school"
     elif venue_type == Venue.TECH_REPORT:
         return "institution"
-    
+
+
 def venue_str(venue):
     venue_str = venue["name"]
     if venue["type"] == Venue.CONFERENCE or venue["type"] == Venue.WORKSHOP:
@@ -61,10 +70,12 @@ def venue_str(venue):
             venue_str += " (" + venue["acronym"] + ")"
     return venue_str
 
+
 def pages_str(pages):
     return "--".join(pages)
 
-def format_pub(bib, pub_key): 
+
+def format_pub(bib, pub_key):
     pub = bib[pub_key]
     venue_type = pub["venue"]["type"]
 
@@ -76,11 +87,11 @@ def format_pub(bib, pub_key):
     bibtex_entries["year"] = str(pub["year"])
 
     pages = pub.get("pages")
-    if (pages is not None):
+    if pages is not None:
         bibtex_entries["pages"] = pages_str(pages)
 
     editor = pub.get("editor")
-    if (editor is not None):
+    if editor is not None:
         bibtex_entries["editor"] = authors_str(pub["editor"])
 
     if venue_type == Venue.BOOK_CHAPTER:
@@ -89,29 +100,28 @@ def format_pub(bib, pub_key):
     remaining_keys = ["issue", "number", "series", "volume"]
     for remaining_key in remaining_keys:
         remaining_value = pub.get(remaining_key)
-        if (remaining_value is not None):
+        if remaining_value is not None:
             bibtex_entries[remaining_key] = remaining_value
 
     # format the bib entry
-    longest_key = max(len(key) for key in bibtex_entries.keys())    
+    longest_key = max(len(key) for key in bibtex_entries.keys())
     pub_str = "@" + bibtex_entry_type + "{" + pub_key + ",\n"
     first = True
-    for bibtex_entry_key, bibtex_entry_value in bibtex_entries.items(): 
+    for bibtex_entry_key, bibtex_entry_value in bibtex_entries.items():
         if first:
             first = False
         else:
-            pub_str += ",\n"   
+            pub_str += ",\n"
         formatted_key = bibtex_entry_key.ljust(longest_key)
         formatted_value = bibtex_str(bibtex_entry_value)
-        pub_str += "  " + formatted_key + " = \"" + formatted_value + "\""
+        pub_str += "  " + formatted_key + ' = "' + formatted_value + '"'
     pub_str += "\n}\n\n"
 
     return pub_str
 
+
 def format_bib(bib):
-    bib_str = ''
+    bib_str = ""
     for key in bib.keys():
         bib_str += format_pub(bib, key)
     return bib_str
-
-

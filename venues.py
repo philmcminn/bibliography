@@ -1,4 +1,4 @@
-from bibpy.bib import Venue 
+from bibpy.bib import Venue
 
 # Book chapters
 esev = {

@@ -1,5 +1,6 @@
 from bibpy.bib import Venue
 
+
 def author_str(author):
     formatted_name_parts = [name.strip().capitalize() for name in author[1:]]
     initials = "".join([name[0] for name in formatted_name_parts])
@@ -65,18 +66,18 @@ def format_bib(bib):
             print("* " + format_pub(key, pub))
 
 
-#format_bib()
+# format_bib()
 #
-#print("\n" + str(len(bib)) + " publications:")
+# print("\n" + str(len(bib)) + " publications:")
 #
-#types = {
+# types = {
 #    Venue.JOURNAL: "journal articles",
 #    Venue.CONFERENCE: "conference papers",
 #    Venue.WORKSHOP: "workshop papers",
 #    Venue.BOOK_CHAPTER: "book chapters",
 #    Venue.TECH_REPORT: "technical reports",
 #    Venue.PHD_THESIS: "phd theses",
-#}
+# }
 #
-#for type, type_str in types.items():
+# for type, type_str in types.items():
 #    print("* " + str(count_venue_type(bib, type)) + " " + type_str)
