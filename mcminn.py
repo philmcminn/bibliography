@@ -31,7 +31,6 @@ add_pub(
         "doi": "",
         "gsid": "ll6Fc7gAAAAJ:uLbwQdceFCQC",
         "authorship": "joint",
-        "previous_key": "j26",
     },
 )
 
