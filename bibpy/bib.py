@@ -37,3 +37,10 @@ def count_venue_type(bib, venue_type):
     )
     count = len(list(filtered_entries))
     return count
+
+
+def get_pub_by_gsid(bib, gsid):
+    for key, pub in bib.items():
+        if "gsid" in pub and pub["gsid"] == gsid:
+            return pub
+    return None
