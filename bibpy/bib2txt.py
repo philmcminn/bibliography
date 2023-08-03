@@ -1,5 +1,6 @@
 from bibpy.bib import Venue
 
+
 def author_str(author):
     formatted_name_parts = [name.strip().capitalize() for name in author[1:]]
     initials = "".join([name[0] for name in formatted_name_parts])
