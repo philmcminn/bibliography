@@ -1666,7 +1666,7 @@ add_pub(
         "series": "Lecture Notes in Computer Science",
         "volume": "4949",
         "doi": "10.1007/978-3-540-78917-8_11",
-        "gsid": "",
+        "gsid": "ll6Fc7gAAAAJ:Se3iqnhoufwC",
         "authorship": "joint",
         "previous_key": "ic1",
     },
