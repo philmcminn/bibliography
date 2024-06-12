@@ -27,7 +27,7 @@ add_pub(
         "venue": icse,
         "year": 2024,
         "doi": "10.1145/3597503.3608138",
-        "gsid": "",
+        "gsid": "ll6Fc7gAAAAJ:W5xh706n7nkC",
         "authorship": "joint",
     },
 )
