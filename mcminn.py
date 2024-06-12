@@ -6,13 +6,27 @@ bib = dict()
 
 add_pub(
     bib,
+    "Elgendy2024",
+    {
+        "author": [elgendy_i, hierons_r, mcminn_p],
+        "title": "Evaluating String Distance Metrics for Reducing Automatically Generated Test Suites",
+        "venue": ast_c,
+        "year": 2024,
+        "doi": "10.1145/3644032.3644455",
+        "gsid": "",
+        "authorship": "joint",
+    }
+)
+
+add_pub(
+    bib,
     "Gruber2024",
     {
         "author": [gruber_m, roslan_m, parry_o, scharnbock_f, mcminn_p, fraser_g],
         "title": "Do Automatic Test Generation Tools Generate Flaky Tests?",
         "venue": icse,
         "year": 2024,
-        "doi": "",
+        "doi": "10.1145/3597503.3608138",
         "gsid": "",
         "authorship": "joint",
     },
