@@ -6,6 +6,34 @@ bib = dict()
 
 add_pub(
     bib,
+    "Maton2024",
+    {
+        "author": [maton_m, kapfhammer_g, mcminn_p],
+        "title": "Exploring Pseudo-Testedness: Empirically Evaluating Extreme Mutation Testing at the Statement Level",
+        "venue": icsme,
+        "year": 2024,
+        "doi": "",
+        "gsid": "",
+        "authorship": "joint",
+    }
+)
+
+add_pub(
+    bib,
+    "Roslan2024",
+    {
+        "author": [roslan_m, rojas_j, mcminn_p],
+        "title": "Private — Keep Out? Understanding How Developers Account for Code Visibility in Unit Testing",
+        "venue": icsme,
+        "year": 2024,
+        "doi": "",
+        "gsid": "",
+        "authorship": "joint",
+    }
+)
+
+add_pub(
+    bib,
     "Elgendy2024",
     {
         "author": [elgendy_i, hierons_r, mcminn_p],
