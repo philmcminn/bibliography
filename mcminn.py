@@ -6,6 +6,34 @@ bib = dict()
 
 add_pub(
     bib,
+    "Maton2024b",
+    {
+        "author": [maton_m, kapfhammer_g, mcminn_p],
+        "title": "PseudoSweep: A Pseudo-Tested Code Identifier",
+        "venue": icsme,
+        "year": 2024,
+        "doi": "",
+        "gsid": "",
+        "authorship": "joint",
+    }
+)
+
+add_pub(
+    bib,
+    "Roslan2024b",
+    {
+        "author": [roslan_m, rojas_j, mcminn_p],
+        "title": "Viscount: A Direct Method Call Coverage Tool for Java",
+        "venue": icsme,
+        "year": 2024,
+        "doi": "",
+        "gsid": "",
+        "authorship": "joint",
+    }
+)
+
+add_pub(
+    bib,
     "Maton2024",
     {
         "author": [maton_m, kapfhammer_g, mcminn_p],
