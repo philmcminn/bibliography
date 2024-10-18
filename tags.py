@@ -1,12 +1,19 @@
+agent_based_modelling = {
+    "tag" : "agent-based-modelling",
+    "title": "Agent-Based Modelling",
+}
 autograding = "autograding"
 database_testing = "database-testing"
 flaky_tests = "flaky-tests"
 mutation_analysis = "mutation-analysis"
+oracles = "oracles"
 pseudo_tested = "pseudo-tested"
 regression_testing = "regression-testing"
 search_based_software_engineering = "search-based-software-engineering"
 search_based_test_generation = "search-based-test-generation"
+software_maintenance = "software-maintenance"
 testability = "testability"
+testability_transformation = "testability-transformation"
 test_case_diversity = "test-case-diversity"
 test_suite_maintenance = "test-suite-maintenance"
 web_presentation_failures = "web-presentation-failures"

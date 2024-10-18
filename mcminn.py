@@ -426,7 +426,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:eJXPG6dFmWUC",
         "authorship": "joint",
         "previous_key": "c61",
-        "tags": [],
+        "tags": [database_testing],
     },
 )
 
@@ -443,6 +443,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:8AbLer7MMksC",
         "authorship": "joint",
         "previous_key": "c60",
+        "tags": [regression_testing],
     },
 )
 
@@ -460,6 +461,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "c59",
         "comment": "Winner of an IEEE Distinguished Paper Award",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -476,6 +478,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:LPZeul_q3PIC",
         "authorship": "joint",
         "previous_key": "c58",
+        "tags": [autograding],
     },
 )
 
@@ -494,6 +497,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:dshw04ExmUIC",
         "authorship": "principal",
         "previous_key": "j20",
+        "tags": [database_testing, mutation_analysis],
     },
 )
 
@@ -511,6 +515,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:l7t_Zn2s7bgC",
         "authorship": "joint",
         "previous_key": "c57",
+        "tags": [search_based_software_engineering],
     },
 )
 
@@ -528,6 +533,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:u9iWguZQMMsC",
         "authorship": "joint",
         "previous_key": "c56",
+        "tags": [regression_testing],
     },
 )
 
@@ -544,6 +550,7 @@ add_pub(
         "gsid": "",
         "authorship": "joint",
         "previous_key": "c55",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -561,6 +568,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:OU6Ihb5iCvQC",
         "authorship": "principal",
         "previous_key": "c54",
+        "tags": [database_testing],
     },
 )
 
@@ -578,6 +586,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "c53",
         "comment": "Winner of an IEEE Distinguished Paper Award",
+        "tags": [web_presentation_failures, search_based_software_engineering],
     },
 )
 
@@ -604,6 +613,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-GREATEST"],
         "previous_key": "j21",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -621,6 +631,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:p2g8aNsByqUC",
         "authorship": "joint",
         "previous_key": "c52",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -640,6 +651,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-REGI"],
         "previous_key": "j19",
+        "tags": [software_maintenance],
     },
 )
 
@@ -657,6 +669,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:nb7KW1ujOQ8C",
         "authorship": "joint",
         "previous_key": "c51",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -673,6 +686,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:1sJd4Hv_s6UC",
         "authorship": "principal",
         "previous_key": "c50",
+        "tags": [web_presentation_failures, oracles],
     },
 )
 
@@ -690,6 +704,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:CHSYGLWDkRkC",
         "authorship": "joint",
         "previous_key": "c49",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -707,6 +722,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "c48",
         "comment": "Winner of an ACM SIGSOFT Distinguished Paper Award",
+        "tags": [web_presentation_failures, search_based_software_engineering],
     },
 )
 
@@ -724,6 +740,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:xtRiw3GOFMkC",
         "authorship": "joint",
         "previous_key": "c47",
+        "tags": [web_presentation_failures, search_based_software_engineering],
     },
 )
 
@@ -740,6 +757,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:NhqRSupF_l8C",
         "authorship": "joint",
         "previous_key": "c46",
+        "tags": [],
     },
 )
 
@@ -757,6 +775,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:_xSYboBqXhAC",
         "authorship": "principal",
         "previous_key": "c45",
+        "tags": [search_based_test_generation, database_testing],
     },
 )
 
@@ -774,6 +793,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:EUQCXRtRnyEC",
         "authorship": "joint",
         "previous_key": "c44",
+        "tags": [mutation_analysis],
     },
 )
 
@@ -794,6 +814,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:f2IySw72cVMC",
         "authorship": "principal",
         "previous_key": "c43",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -811,6 +832,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:yD5IFk8b50cC",
         "authorship": "principal",
         "previous_key": "c42",
+        "tags": [database_testing, mutation_analysis],
     },
 )
 
@@ -829,6 +851,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:a0OBvERweLwC",
         "authorship": "joint",
         "previous_key": "c41",
+        "tags": [search_based_software_engineering],
     },
 )
 
@@ -846,6 +869,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:cFHS6HbyZ2cC",
         "authorship": "principal",
         "previous_key": "c40",
+        "tags": [search_based_software_engineering],
     },
 )
 
@@ -865,6 +889,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "j18",
+        "tags": [database_testing, search_based_test_generation],
     },
 )
 
@@ -882,6 +907,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:4OULZ7Gr8RgC",
         "authorship": "joint",
         "previous_key": "c39",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -900,6 +926,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "c38",
         "comment": "Winner of an ACM SIGSOFT Distinguished Paper Award",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -918,6 +945,7 @@ add_pub(
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "tr4",
         "jv": "j18",
+        "tags": [database_testing, search_based_test_generation],
     },
 )
 
@@ -933,6 +961,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:ZHo1McVdvXMC",
         "authorship": "joint",
         "previous_key": "c37",
+        "tags": [database_testing, search_based_test_generation],
     },
 )
 
@@ -949,6 +978,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:3s1wT3WcHBgC",
         "authorship": "joint",
         "previous_key": "c36",
+        "tags": [],
     },
 )
 
@@ -967,6 +997,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "c35",
         "comment": "Winner of best paper award for the SBSE-SS track",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -985,6 +1016,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "j17",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1003,6 +1035,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:M05iB0D1s5AC",
         "authorship": "joint",
         "previous_key": "j16",
+        "tags": [oracles],
     },
 )
 
@@ -1022,6 +1055,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "j15",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1040,6 +1074,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "j14",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1059,6 +1094,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "j13",
+        "tags": [oracles],
     },
 )
 
@@ -1076,6 +1112,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:70eg2SAEIzsC",
         "authorship": "joint",
         "previous_key": "c34",
+        "tags": [database_testing, mutation_analysis],
     },
 )
 
@@ -1094,6 +1131,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST, EPSRC-REGI"],
         "previous_key": "c33",
+        "tags": [software_maintenance],
     },
 )
 
@@ -1110,6 +1148,7 @@ add_pub(
         "authorship": "joint",
         "previous_key": "tr3",
         "jv": "j16",
+        "tags": [oracles],
     },
 )
 
@@ -1129,6 +1168,7 @@ add_pub(
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c32",
         "jv": "j15",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1148,6 +1188,7 @@ add_pub(
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c31",
         "jv": "j17",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1167,6 +1208,7 @@ add_pub(
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c30",
         "jv": "j14",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1188,6 +1230,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR"],
         "previous_key": "c29",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1205,6 +1248,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:ns9cj8rnVeAC",
         "authorship": "joint",
         "previous_key": "c28",
+        "tags": [search_based_test_generation, regression_testing],
     },
 )
 
@@ -1234,6 +1278,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:O3NaXMp0MMsC",
         "authorship": "joint",
         "previous_key": "j12",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1251,6 +1296,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:GnPB-g6toBAC",
         "authorship": "joint",
         "previous_key": "c27",
+        "tags": [database_testing, mutation_analysis],
     },
 )
 
@@ -1269,6 +1315,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c26",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1287,6 +1334,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c25",
+        "tags": [search_based_test_generation, database_testing],
     },
 )
 
@@ -1307,6 +1355,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-RECOST"],
         "previous_key": "j11",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1325,6 +1374,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-REGI"],
         "previous_key": "c24",
+        "tags": [software_maintenance],
     },
 )
 
@@ -1365,6 +1415,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:M3ejUd6NZC8C",
         "authorship": "joint",
         "previous_key": "j10",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1384,6 +1435,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-RECOST, EPSRC-REGI"],
         "previous_key": "j9",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1402,6 +1454,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-RECOST, EPSRC-REGI"],
         "previous_key": "c23",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1421,6 +1474,7 @@ add_pub(
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c22",
         "jv": "j13",
+        "tags": [oracles],
     },
 )
 
@@ -1439,6 +1493,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR"],
         "previous_key": "c21",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1455,6 +1510,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-RECOST"],
         "previous_key": "c20",
+        "tags": [oracles],
     },
 )
 
@@ -1481,6 +1537,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c19",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1501,6 +1558,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:YOwf2qJgpHMC",
         "authorship": "joint",
         "previous_key": "ic2",
+        "tags": [search_based_software_engineering, search_based_test_generation],
     },
 )
 
@@ -1520,6 +1578,7 @@ add_pub(
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c18",
         "comment": "Keynote paper",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1538,6 +1597,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR"],
         "previous_key": "c17",
+        "tags": [agent_based_modelling, mutation_analysis],
     },
 )
 
@@ -1555,6 +1615,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "tr2",
+        "tags": [software_maintenance],
     },
 )
 
@@ -1573,6 +1634,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-REGI"],
         "previous_key": "c16",
+        "tags": [software_maintenance],
     },
 )
 
@@ -1592,6 +1654,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "j8",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1610,6 +1673,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c15",
+        "tags": [search_based_test_generation, oracles],
     },
 )
 
@@ -1630,6 +1694,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "j7",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1650,6 +1715,7 @@ add_pub(
         "previous_key": "c14",
         "jv": "j11",
         "comment": "Winner of SSBSE 2010 best paper award",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1667,6 +1733,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:MXK_kJrjxJIC",
         "authorship": "principal",
         "previous_key": "c13",
+        "tags": [oracles, search_based_test_generation],
     },
 )
 
@@ -1685,6 +1752,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c12",
+        "tags": [software_maintenance],
     },
 )
 
@@ -1703,6 +1771,7 @@ add_pub(
         "authorship": "joint",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c11",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1721,6 +1790,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:YsMSGLbcyi4C",
         "authorship": "principal",
         "previous_key": "j6",
+        "tags": [search_based_test_generation, testability_transformation],
     },
 )
 
@@ -1739,6 +1809,7 @@ add_pub(
         "authorship": "principal",
         "sponsor": ["EPSRC-MISBEHAVIOUR, EPSRC-REGI"],
         "previous_key": "c10",
+        "tags": [oracles, search_based_test_generation, testability_transformation],
     },
 )
 
@@ -1768,6 +1839,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:Se3iqnhoufwC",
         "authorship": "joint",
         "previous_key": "ic1",
+        "tags": [testability_transformation],
     },
 )
 
@@ -1786,6 +1858,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:5nxA0vEk-isC",
         "authorship": "joint",
         "previous_key": "j5",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1803,6 +1876,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:eQOLeE2rZwMC",
         "authorship": "joint",
         "previous_key": "c9",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1820,6 +1894,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:_FxGoFyzp5QC",
         "authorship": "joint",
         "previous_key": "j4",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1838,6 +1913,7 @@ add_pub(
         "authorship": "principal",
         "previous_key": "c8",
         "jv": "j9",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1856,6 +1932,7 @@ add_pub(
         "authorship": "principal",
         "previous_key": "c7",
         "jv": "j8",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1873,6 +1950,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:IjCSPb-OGe4C",
         "authorship": "joint",
         "previous_key": "c6",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1890,6 +1968,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:LkGwnXOMwfcC",
         "authorship": "principal",
         "previous_key": "tr1",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1908,6 +1987,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:Y0pCki6q_DkC",
         "authorship": "joint",
         "previous_key": "j3",
+        "tags": [agent_based_modelling],
     },
 )
 
@@ -1926,6 +2006,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:zYLM7Y9cAGgC",
         "authorship": "principal",
         "previous_key": "j2",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1943,6 +2024,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:d1gkVwhDpl0C",
         "authorship": "principal",
         "previous_key": "c5",
+        "tags": [search_based_test_generation, testability_transformation],
     },
 )
 
@@ -1960,6 +2042,7 @@ add_pub(
         "authorship": "principal",
         "previous_key": "c4",
         "jv": "j6",
+        "tags": [testability_transformation, search_based_test_generation],
     },
 )
 
@@ -1977,6 +2060,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:qjMakFHDy7sC",
         "authorship": "principal",
         "previous_key": "c3",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -1992,6 +2076,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:WF5omc3nYNoC",
         "authorship": "principal",
         "previous_key": "t1",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -2010,6 +2095,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:u5HHmVD_uO8C",
         "authorship": "principal",
         "previous_key": "j1",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -2031,6 +2117,7 @@ add_pub(
         "previous_key": "c2",
         "jv": "j2",
         "comment": "Winner of best paper award for the SBSE track",
+        "tags": [search_based_test_generation],
     },
 )
 
@@ -2050,5 +2137,6 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:u-x6o8ySG0sC",
         "authorship": "principal",
         "previous_key": "c1",
+        "tags": [search_based_test_generation],
     },
 )
