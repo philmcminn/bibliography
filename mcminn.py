@@ -1,4 +1,5 @@
 from authors import *
+from tags import *
 from venues import *
 from bibpy.bib import add_pub
 
@@ -16,6 +17,7 @@ add_pub(
         "doi": "",
         "gsid": "",
         "authorship": "joint",
+        "tags": [pseudo_tested],
     }
 )
 
@@ -31,6 +33,7 @@ add_pub(
         "doi": "",
         "gsid": "",
         "authorship": "joint",
+        "tags": [test_suite_maintenance],
     }
 )
 
@@ -45,6 +48,7 @@ add_pub(
         "doi": "",
         "gsid": "",
         "authorship": "joint",
+        "tags": [pseudo_tested],
     }
 )
 
@@ -59,6 +63,7 @@ add_pub(
         "doi": "",
         "gsid": "",
         "authorship": "joint",
+        "tags": [test_suite_maintenance],
     }
 )
 
@@ -73,6 +78,7 @@ add_pub(
         "doi": "10.1145/3644032.3644455",
         "gsid": "",
         "authorship": "joint",
+        "tags": [regression_testing, test_case_diversity],
     }
 )
 
@@ -87,6 +93,7 @@ add_pub(
         "doi": "10.1145/3597503.3608138",
         "gsid": "ll6Fc7gAAAAJ:W5xh706n7nkC",
         "authorship": "joint",
+        "tags": [flaky_tests, search_based_test_generation]
     },
 )
 
@@ -103,6 +110,7 @@ add_pub(
         "doi": "10.1007/s10664-023-10307-w",
         "gsid": "ll6Fc7gAAAAJ:uLbwQdceFCQC",
         "authorship": "joint",
+        "tags": [flaky_tests],
     },
 )
 
@@ -118,6 +126,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:_Ybze24A_UAC",
         "authorship": "joint",
         "previous_key": "c75",
+        "tags": [mutation_analysis],
     },
 )
 
@@ -134,6 +143,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:JQOojiI6XY0C",
         "authorship": "joint",
         "previous_key": "c74",
+        "tags": [search_based_test_generation, test_suite_maintenance],
     },
 )
 
@@ -149,6 +159,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:VL0QpB8kHFEC",
         "authorship": "joint",
         "previous_key": "c73",
+        "tags": [flaky_tests],
     },
 )
 
@@ -164,6 +175,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:WqliGbK-hY8C",
         "authorship": "joint",
         "previous_key": "c72",
+        "tags": [flaky_tests],
     },
 )
 
@@ -179,6 +191,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:JoZmwDi-zQgC",
         "authorship": "joint",
         "previous_key": "j25",
+        "tags": [flaky_tests],
     },
 )
 
@@ -194,6 +207,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:5awf1xo2G04C",
         "authorship": "joint",
         "previous_key": "c71",
+        "tags": [flaky_tests],
     },
 )
 
@@ -209,6 +223,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:ye4kPcJQO24C",
         "authorship": "joint",
         "previous_key": "c70",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -224,6 +239,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:eq2jaN3J8jMC",
         "authorship": "joint",
         "previous_key": "c69",
+        "tags": [autograding],
     },
 )
 
@@ -239,6 +255,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:Mojj43d5GZwC",
         "authorship": "joint",
         "previous_key": "c68",
+        "tags": [autograding],
     },
 )
 
@@ -256,6 +273,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:XiVPGOgt02cC",
         "authorship": "joint",
         "previous_key": "j24",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -273,6 +291,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:wbdj-CoPYUoC",
         "authorship": "joint",
         "previous_key": "j22",
+        "tags": [web_presentation_failures, search_based_software_engineering],
     },
 )
 
@@ -289,6 +308,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:AXPGKjj_ei8C",
         "authorship": "joint",
         "previous_key": "c67",
+        "tags": [autograding, mutation_analysis],
     },
 )
 
@@ -304,6 +324,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:olpn-zPbct0C",
         "authorship": "joint",
         "previous_key": "c66",
+        "tags": [testability, search_based_test_generation],
     },
 )
 
@@ -321,6 +342,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:J-pR_7NvFogC",
         "authorship": "joint",
         "previous_key": "j23",
+        "tags": [web_presentation_failures],
     },
 )
 
@@ -336,6 +358,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:t6usbXjVLHcC",
         "authorship": "joint",
         "previous_key": "c65",
+        "tags": [autograding],
     },
 )
 
@@ -351,6 +374,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:1qzjygNMrQYC",
         "authorship": "joint",
         "previous_key": "c64",
+        "tags": [database_testing, regression_testing],
     },
 )
 
@@ -366,6 +390,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:V3AGJWp-ZtQC",
         "authorship": "joint",
         "previous_key": "c63",
+        "tags": [flaky_tests],
     },
 )
 
@@ -383,6 +408,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:kRWSkSYxWN8C",
         "authorship": "joint",
         "previous_key": "c62",
+        "tags": [database_testing, regression_testing],
     },
 )
 
@@ -400,6 +426,7 @@ add_pub(
         "gsid": "ll6Fc7gAAAAJ:eJXPG6dFmWUC",
         "authorship": "joint",
         "previous_key": "c61",
+        "tags": [],
     },
 )
 
